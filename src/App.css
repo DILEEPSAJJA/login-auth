@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-inner {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 20px; /* Adding some padding for better appearance */
+  width: 100%; /* This can be adjusted as needed */
+  max-width: 400px; /* Adjust the max-width to your preference */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow border */
+  background-color: white; /* Optional: Set a background color */
+}
